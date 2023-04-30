@@ -1,0 +1,13 @@
+# database check
+prodigy stats -l    # view stats and list all datasets
+prodigy stats -ls  # view stats and list all datasets and sessions
+
+prodigy db-out annotated_space > ./annotations.jsonl   # export annotated dataset as jsonl
+prodigy db-in	# import annotations to a dataset.
+prodigy db-out	# export annotations from a dataset or session.
+prodigy drop	# remove a dataset or session from the database.
+
+# create annotations
+cat ./data.txt | prodigy space.ner.manual annotated_space - --loader txt --label PER,ORG,LOC -F ./recipe2.py
+
+
