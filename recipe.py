@@ -1,89 +1,65 @@
-# command line start: cat ./data.txt | prodigy xlmroberta.ner.manual annotated_test2 - --loader txt --label PERSON,ORG,LOC -F ./recipe.py
-# command line export data: prodigy db-out annotated_test2 > ./annotations.jsonl
+# command line start: cat ./data.txt | prodigy space.ner.manual annotated_space - --loader txt --label PER,ORG,LOC -F ./recipe.py
+# command line export data: prodigy db-out annotated_space > ./annotations.jsonl
+# used for FPA 
+
+
 
 """This recipe requires Prodigy v1.10+."""
 from typing import List, Optional, Union, Iterable, Dict, Any
-from tokenizers import BertWordPieceTokenizer, Tokenizer
 from prodigy.components.loaders import get_stream
 from prodigy.util import get_labels
 import prodigy
 
+from nltk.tokenize import WhitespaceTokenizer
+import re
+
 
 @prodigy.recipe(
-    "xlmroberta.ner.manual",    # bert -> xlmroberta
-    # fmt: off
+    "space.ner.manual",    
     dataset=("Dataset to save annotations to", "positional", None, str),
     source=("Data to annotate (file path or '-' to read from standard input)", "positional", None, str),
     loader=("Loader (guessed from file extension if not set)", "option", "lo", str),
     label=("Comma-separated label(s) to annotate or text file with one label per line", "option", "l", get_labels),
     tokenizer_vocab=("Tokenizer vocab file", "option", "tv", str),
     lowercase=("Set lowercase=True for tokenizer", "flag", "LC", bool),
-    #hide_special=("Hide SEP and CLS tokens visually", "flag", "HS", bool),
-    #hide_wp_prefix=("Hide wordpieces prefix like ##", "flag", "HW", bool)
-    # fmt: on
+
 )
-def ner_manual_tokenizers_xlmroberta(     #bert -> xlmroberta
+def ner_manual_tokenizers_space(     
     dataset: str,
     source: Union[str, Iterable[dict]],
     loader: Optional[str] = None,
     label: Optional[List[str]] = None,
     tokenizer_vocab: Optional[str] = None,
     lowercase: bool = False,
-    #hide_special: bool = False,
-    #hide_wp_prefix: bool = False,
+
 ) -> Dict[str, Any]:
-    """Example recipe that shows how to use model-specific tokenizers like the
-    BERT word piece tokenizer to preprocess your incoming text for fast and
-    efficient NER annotation and to make sure that all annotations you collect
-    always map to tokens and can be used to train and fine-tune your model
-    (even if the tokenization isn't that intuitive, because word pieces). The
-    selection automatically snaps to the token boundaries and you can double-click
-    single tokens to select them.
-    Setting "honor_token_whitespace": true will ensure that whitespace between
-    tokens is only shown if whitespace is present in the original text. This
-    keeps the text readable.
-    Requires Prodigy v1.10+ and uses the HuggingFace tokenizers library."""
+
     stream = get_stream(source, loader=loader, input_key="text")
-    # You can replace this with other tokenizers if needed
-    # tokenizer = BertWordPieceTokenizer(tokenizer_vocab, lowercase=lowercase)    
-    
-    xlmr_model_name = "xlm-roberta-base"
-    tokenizer = Tokenizer.from_pretrained(xlmr_model_name)
-    
+      
 
-    # sep_token = tokenizer._parameters.get("sep_token")
-    # cls_token = tokenizer._parameters.get("cls_token")
-    # special_tokens = (sep_token, cls_token)
-    
-    #special_tokens = ('<s>', '</s>', '<unk>', '<pad>', '<mask>')   # for XLMRoberta see: https://huggingface.co/transformers/v4.6.0/model_doc/xlmroberta.html
-
-    # wp_prefix = tokenizer._parameters.get("wordpieces_prefix")  
-    #wp_prefix = '_'      # for XLMRoberta
 
     def add_tokens(stream):
         for eg in stream:
-            tokens = tokenizer.encode(eg["text"])
+            s=eg["text"]        
+            
+            s = re.sub('([.,!?()])', r' \1 ', s) # seperate punctuation characters of interest with whitespaces
+            s = re.sub('\s{2,}', ' ', s)
+            
+            # Create a reference variable for Class WhitespaceTokenizer
+            tk = WhitespaceTokenizer()
+            tokens= tk.tokenize(s)
+            offsets= list(WhitespaceTokenizer().span_tokenize(s)) 
             eg_tokens = []
             idx = 0
-            for (text, (start, end), tid, wid, attention) in zip(
-                tokens.tokens, tokens.offsets, tokens.ids, tokens.word_ids, tokens.attention_mask
+            for (text, (start, end)) in zip(
+                tokens, offsets
             ):
-                # If we don't want to see special tokens, don't add them
-                #if hide_special and text in special_tokens:
-                #    continue
-                # If we want to strip out word piece prefix, remove it from text
-                # if hide_wp_prefix and wp_prefix is not None:
-                #     if text.startswith(wp_prefix):
-                #         text = text[len(wp_prefix):]
+                
                 token = {
                     "text": text,
                     "id": idx,
                     "start": start,
                     "end": end,
-                    # This is the encoded ID returned by the tokenizer
-                    "tokenizer_id": tid,
-                    "tokenizer_word_id": wid,
-                    "attention_mask": attention,
                     # Don't allow selecting spacial SEP/CLS tokens
                     "disabled": False #text in special_tokens,
                 }
@@ -96,7 +72,6 @@ def ner_manual_tokenizers_xlmroberta(     #bert -> xlmroberta
                     next_token = eg_tokens[i + 1]
                     token["ws"] = (
                         next_token["start"] > token["end"]
-                        #or next_token["text"] in special_tokens
                     )
                 else:
                     token["ws"] = True
