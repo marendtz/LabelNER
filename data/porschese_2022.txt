@@ -1,0 +1,25 @@
+The non-financial group report of Porsche Automobil Holding SE ('Porsche SE' or the 'company') aims to give internal and external readers a transparent presentation of the concepts, strategies and processes relating to non-financial aspects in the Porsche SE Group.
+This non-financial group report of Porsche SE for the fiscal year 2022 follows the commercial law requirements of Sec. 315b HGB ['Handelsgesetzbuch': German Commercial Code] as well as the additional disclosure obligations of Article 8 of Regulation (EU) 2020/852 (EU Taxonomy Regulation).
+The Porsche SE Group currently opts not to use such a framework on account of deviating definitions of materiality between the frameworks and the legal requirements as well as the unreasonable cost-benefit ratio in light of the current corporate structure.
+Reporting covers Porsche SE and the fully consolidated entities included in the consolidated financial statements of the Porsche SE Group in the reporting year.
+Reporting on the Porsche SE Group mainly focuses on the non-financial aspects environmental matters, employee-related matters, social matters, respect for human rights and anti-corruption and bribery matters.
+In particular, it holds the majority of the ordinary shares in Volkswagen Aktiengesellschaft ('Volkswagen AG' or 'Volkswagen'), one of the world's leading automobile manufacturers.
+As the parent company of the Volkswagen Group, Volkswagen AG directly and indirectly holds investments in AUDI AG, SEAT S.A., ŠKODA AUTO a.s., Dr. Ing. h.c. F. Porsche AG ('Porsche AG'), TRATON SE, Volkswagen Financial Services AG, Volkswagen Bank GmbH as well as in numerous other companies in Germany and abroad.
+In addition to these two core investments, the Porsche SE Group holds noncontrolling interests in nine technology companies based in North America, Europe and Israel (as of 31 December 2022).
+The investment strategy of Porsche SE aims for sustainable value creation for its shareholders.
+The first category includes the long-term core investments in Volkswagen AG and in Porsche AG.
+With their software solutions and their data portfolio, European Transport Solutions S.à r.l. and INRIX Inc. aim to optimize traffic flows and transport routes, thereby making a significant contribution to reducing the consumption of resources and lowering emissions.
+As part of the EU Commission's European Green Deal, with the primary aim of climate neutrality by 2050, the EU Taxonomy Regulation and its delegated acts (EU Taxonomy) have entered into force since July 2020 as a key measure of the action plan for the financing of sustainable growth.
+The Porsche SE Group is made up of the fully consolidated subsidiaries Porsche Beteiligung GmbH, Porsche Zweite Beteiligung GmbH, Porsche Dritte Beteiligung GmbH and Porsche Vierte Beteiligung GmbH.
+The wording and terminology used in the EU Taxonomy are still subject to a degree of uncertainty in interpretation, which could lead to changes in the future reporting, if it is subsequently clarified by the EU Commission.
+The identified economic activities of the Porsche SE Group are activities in its function as a holding company.
+Neither the core investments in Volkswagen AG and Porsche AG nor the portfolio investments are included in the consolidated financial statements of Porsche SE by way of full consolidation.
+The quantitative information was determined based on the IFRS consolidated financial statements of Porsche SE for the fiscal year 2022.
+The CapEx of the Porsche SE Group contain expenses of €1 million for right-of-use assets from vehicle leasing contracts.
+The CapEx and OpEx relate entirely to the holding operations of the Porsche SE Group in the reporting period and are thus allocated to taxonomy-noneligible economic activities.
+The OpEx of the Porsche SE Group contain expenses in connection with leases as well as for maintenance and repair totaling €1 million.
+CapEx relating to the Porsche SE Group comprise additions to right-of-use assets under IFRS 16 as well as additions to property, plant and equipment under IAS 16 and other intangible assets under IAS 38 totaling €1 million.
+Their economic activities are therefore not to be included in Porsche SE's disclosures.
+CapEx and OpEx for taxonomy-non-eligible economic activities of the holding operations of the Porsche SE Group relating to the purchase of output of taxonomy-eligible or taxonomy-aligned economic activities are reported as taxonomyeligible or taxonomy-aligned CapEx and OpEx pursuant to Delegated Regulation (EU) 2021/2178 Annex I 1.1.2.2. Category c and 1.1.3.2. Category c ('Category c').
+As defined by the EU Taxonomy, these economic activities do not make a substantial contribution to the EU's first two environmental objectives and are therefore classified as taxonomynon-eligible.
+Reporting on the Porsche SE Group mainly focuses on the non-financial aspects environmental matters, employee-related matters, social matters, respect for human rights and anti-corruption nd bribery matters.

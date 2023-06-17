@@ -1,0 +1,25 @@
+Sustainability is a core component of Beiersdorf corporate culture and of fundamental importance in our decision'making and business processes.
+At tesa, sustainability is firmly enshrined in the business strategy.
+Beiersdorf is one of the world's leading companies in the consumer goods industry.
+Both the Sustainability Council in the Consumer Business Segment and the General Executive Committee at tesa are responsible for monitoring climate'related decisions.
+These climate targets have been recognized by the Science Based Targets Initiative (SBTi) and correspond to the 1.5'degree scenario set out in the Paris Agreement.
+These calculations are mainly based on emission factors from the Intergovernmental Panel on Climate Change (IPCC), along with emission factors from our energy suppliers and the International Energy Agency (IEA).
+Further emissions, such as steam from district heating, are calculated using the emission factors provided by the GaBi database, and the British Department for Environment, Food & Rural Affairs (Defra).
+Since 2022, we have also included the emissions data from our NIVEA'KAO business in Japan in the calculation for Scopes 1 to 3 in accordance with the GHG Protocol's operational control approach.
+This selection covers more than two'thirds of our total Scope 3 emissions, which meets the requirements of SBTi.
+For the data collected via our travel management system, we calculate emissions according to the methodology established by the German Association of Business Travel Agents (Verband Deutscher Geschaeftsreiseveranstalter, VDR), taking into account a 'radiative forcing index' (RFI) factor of 2 for business flights.
+The 2021 flight emissions of our German companies were offset in the reporting year 2022 retroactively, and we will do the same for our flight emissions in the upcoming reporting year.
+TueV Rheinland Energy was engaged during the fiscal year to review the methodology and process to ensure that Beiersdorf follows international standards and a science'based approach.
+Particularly in light of the geopolitical situation in 2022 and the associated energy crisis, we have set ourselves the goal of no longer being reliant on natural gas in Europe.
+Beiersdorf is therefore increasingly using more sustainable solutions, including two electric steam generators for the Technical Center at the Group's headquarters and one heat pump system each for the production facilities in Argentona, Spain, and Hamburg, Germany, which will be used to generate cold water and heat the buildings.
+With the heat pump solution we strive to make the Argentona site our first carbon'neutral production facility in Spain in 2023, and at the same time Beiersdorf's first factory that does not rely on any fuel.
+This includes our new Group headquarters and Research Center in Hamburg's Eimsbuettel district, scheduled for completion in 2023.
+The biogas is produced in Denmark from organic waste and fed into the European gas grid.
+By purchasing biomethane instead of natural gas, the manufacture of our products at our production facility in Berlin has been climate neutral since the reporting year.
+To this end, we are entering into various partnerships, including with the Roundtable on Sustainable Palm Oil (RSPO).
+This applies in Europe and North America especially, where our largest markets are located.
+In addition, our truck transportation service providers used biofuels in the reporting year to transport our products from the 'Hub Nordics' to the Scandinavian countries, as well as from two other hubs in France and Italy.
+One example is our cooperation with EcoTransIT to calculate our transportation emissions. We then share this knowledge with our logistics providers worldwide.
+For example, we call on our suppliers to also participate in the climate data surveys conducted by the CDP organization.
+In addition to the environmental management system, the two largest production facilities with the highest GHG emissions (Hamburg and Offenburg) are certified to the ISO 50001:2018 standard.
+To make our progress with respect to recyclability measurable, we introduced a new methodology in 2021 in line with the principles promulgated by the Ellen MacArthur Foundation.

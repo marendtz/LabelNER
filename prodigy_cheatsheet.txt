@@ -8,6 +8,6 @@ prodigy db-out	# export annotations from a dataset or session.
 prodigy drop	# remove a dataset or session from the database.
 
 # create annotations
-cat ./data.txt | prodigy space.ner.manual annotated_space - --loader txt --label PER,ORG,LOC -F ./recipe2.py
+cat ./data.txt | prodigy space.ner.manual annotated_space - --loader txt --label PER,ORG,LOC -F ./recipe.py
 
 

@@ -42,7 +42,9 @@ def ner_manual_tokenizers_space(
         for eg in stream:
             s=eg["text"]        
             
-            s = re.sub('([.,!?()])', r' \1 ', s) # seperate punctuation characters of interest with whitespaces
+            s = re.sub("([.,,’‘“”/!?()--'])", r' \1 ', s) # seperate punctuation characters of interest with whitespaces
+            s = s.replace('"', r' " ') # seperate punctuation characters of interest with whitespaces
+            s = s.replace("'", r" ' ") # seperate punctuation characters of interest with whitespaces
             s = re.sub('\s{2,}', ' ', s)
             
             # Create a reference variable for Class WhitespaceTokenizer

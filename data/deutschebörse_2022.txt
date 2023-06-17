@@ -1,0 +1,25 @@
+While preparing the report, we followed the recommendations of the International Integrated Reporting Council (IIRC) on portraying the value creation process (see chart 'Value creation process'). 
+Currently, a highly dynamic environment for company reporting exists due to regulatory developments in the field of non-financial reporting and due to a closer cooperation and coordination between the key standard-setters, Global Reporting Initiative (GRI), Sustainability Accounting Standard Board (SASB), Task Force on Climate-Related Financial Disclosures (TCFD) and IIRC.
+The combined non-financial statement for Deutsche Boerse Group and the parent Deutsche Boerse AG is integrated into the combined management report; it meets the requirements of sections 289b–e and 315b–c HGB and Regulation (EU) 2020/852 of the European Parliament and the European Council of 18 June 2020 on the establishment of a framework to facilitate sustainable investment and amending Regulation (EU) 2019/2088 (in the following EU Taxonomy Regulation).
+Deutsche Boerse AG was established in 1992 and is a global company based in Frankfurt/Main, Germany.
+We are committed to achieving the minimum financial risk profile that is consistent with an AA rating in accordance with S&P Global Ratings methodology. 
+Furthermore, we endeavour to maintain the strong AA credit ratings of our subsidiaries Clearstream Banking S.A. and Clearstream Banking AG, in order to ensure the long-term success of the Clearstream securities settlement and custody segment. 
+The activities of our Eurex Clearing AG subsidiary also require strong credit quality.
+These include Clearstream Banking S.A., Clearstream Banking AG and Eurex Clearing AG.
+The 'financial instruments of the central counterparties' item relates to the function performed by Eurex Clearing AG, European Commodity Clearing AG as well as Nodal Clear, LLC: since they act as the central counterparties for Deutsche Boerse Group's various markets, their financial instruments are carried in the balance sheet at their fair value.
+Furthermore, we are a full member of national associations (Cyber Security Sharing and Analytics, CSSA), trade associations (World Federation of Exchanges) and international networks (Financial Services Information Sharing and Analysis Center, FS-ISAC) which contribute significantly towards a forward-looking stance vis-à-vis cyber threats, and the development of strategies to fend off such threats.
+Furthermore, we are a member of the ECB's Euro Cyber Resilience Board for pan-European financial infrastructures (ECRB).
+Frankfurter Wertpapierboerse (FWB®, the Frankfurt Stock Exchange) used this authorisation in its Exchange Rules (section IV) to create the 'Prime Standard' in 2003.
+One feature of the Prime Standard is the special post-admission obligations, which are monitored by FWB, with any breaches penalised by the exchange's Sanctions Committee.
+As a member of the UN Global Compact (UNGC) and the Sustainable Stock Exchanges Initiative (SSE), Deutsche Boerse Group has committed itself to implementing the 17 Sustainable Development Goals (SDGs) of the '2030 Agenda for Sustainable Development' set by the UN.
+For further sustainability performance indicators we also refer to our GRI index on our website.
+The risk management functions at Clearstream, Eurex Clearing AG and European Commodity Clearing AG submit reports to the respective executive boards and supervisory boards.
+Analysts continuously assess the security situation at our locations and on business trips, and are in close contact with national and international authorities (Federal Criminal Police Office – BKA, Federal Office for the Protection of the Constitution – BfV, etc.), security service providers, and security departments of other companies.
+In addition, special stress tests were developed and carried out in the context of geopolitical developments, especially in Ukraine.
+However, as a consequence of measures taken by the Russian state in the course of the Russia-Ukraine war, blocked customer deposits stored in the name of Clearstream at the Russian central securities depository had to be written down in full (€134.1 million).
+Other market price risks arise for Crypto Finance AG as open positions in crypto assets may arise from its brokerage business.
+Furthermore, market risk could result from ring-fenced pension plan assets for our employees (Contractual Trust Arrangement (CTA), Clearstream's pension fund in Luxembourg).
+Maturity limits are therefore set cautiously. In addition, extensive sources of financing are available at all times, such as ongoing access to the liquidity facilities at Deutsche Bundesbank and Banque Centrale du Luxembourg.
+The Federal Financial Supervisory Authority (BaFin) regularly considers whether to classify Deutsche Boerse AG as a financial holding company.
+The CMS applies to Deutsche Boerse AG and to the subsidiaries in Germany and abroad in which we hold a majority interest.
+Eurex Repo GmbH and 360 Treasury Systems AG are also subject to specific provisions applicable to investment firms.
